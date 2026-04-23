@@ -1,16 +1,16 @@
 import streamlit as st
 
-st.markdown("""
-<style>
+st.markdown("""<style>
 [data-testid="stSidebar"] {
-    background-color: green;
+    background-color:pink;
 }
 [data-testid="stSidebar"] * {
-    color: white;
+    color: black;
 }
 .stApp {
-   background-color: aliceblue;
-}   
+   background-color:lightblue;
+}  
+
 .main {
     text-align: center;
 }
@@ -34,15 +34,14 @@ img {
 </style>
 """, unsafe_allow_html=True)
 
-st.title("🧑‍💻 :orange[About Me]")
+st.title("🧑‍💻 :green[About Me]")
 
 st.write(""" 
-I am a 3rd year Computer Science Student at DEBESMSCAT. Currently exploring web development for our thesis project. Im also interested in graphic design.
+I am a Computer Science Student at DEBESMSCAT I enjoy creating a basic Graphic design 
 """)
-st.subheader("🎓 :blue[Education]")
-st.write("- Bachelor of Science In Computer Science")
-st.write("- 3rd Year ")
-st.write("- DEBESMSCAT")
-st.subheader("🎯 :blue[Goals]")
-st.write("- My goal is to finish my studies and improve my skills in programming")
-st.write("- I want to build simple application")
+st.subheader("🎓:red[Education]")
+st.write("- Bachelor of Science in Computer Science")
+st.write("- 3rd year student at DEBESMSCAT")
+st.subheader("🎯:red[Goals]")
+st.write("- My goal is to finish my studies And improve my skills in programming ")
+st.write("- I want to build a Web App")
